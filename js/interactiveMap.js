@@ -9,6 +9,6 @@ window.onload = () => {
   imageObj.src = "./images/interactiveMap.png";
 
   imageObj.onload = function () {
-    context.drawImage(imageObj, 0, 0);
+    context.drawImage(imageObj, 0, -35);
   };
 };
